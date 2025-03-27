@@ -51,7 +51,7 @@ If the project is hosted on GitHub, clone it using the following command:
 
 ```sh
 git clone https://github.com/dArunSai/Traveljourney.git
-cd <project-folder>
+cd Traveljourney
 ```
 
 ### 3. Install Project Dependencies
