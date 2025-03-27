@@ -1,0 +1,77 @@
+.container {
+  display: flex; /* Align image and details side by side */
+  align-items: flex-start; /* Align items at the top */
+  gap: 20px; /* Add space between the image and details */
+  margin: 20px; /* Add margin around the container */
+}
+
+.img {
+  margin-top: 50px;
+  max-width: 150px; /* Fixed width for the image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.details {
+  display: flex;
+  flex-direction: column; /* Stack the location, title, and description vertically */
+  gap: 10px; /* Add space between each detail */
+}
+
+.location {
+  display: inline-flex; /* Align the pin icon and text side by side */
+  align-items: center; /* Vertically align the icon and text */
+  font-size: 1rem; /* Adjust font size for the location */
+  line-height: 1.5; /* Improve readability */
+  font-weight: bold; /* Make the text bold */
+  color: #333; /* Set a color for the text */
+  margin-top: 30px;
+}
+
+.pin-icon {
+  color: red; /* Set the pin color */
+  margin-right: 8px; /* Add spacing between the icon and text */
+  font-size: 1.2rem; /* Adjust the size of the icon */
+}
+
+.description-title {
+  margin: 0; /* Remove extra margin */
+  font-size: 1.8rem; /* Adjust font size */
+  font-weight: bold; /* Make the title bold */
+  margin-top: 10px;
+  color: #333; /* Set a color for the title */
+}
+
+.description {
+  font-size: 1rem; /* Adjust font size for the description */
+  line-height: 1.5; /* Improve readability */
+  color: #555; /* Set a color for the description text */
+}
+
+.additional-info {
+  font-size: 0.9rem; /* Slightly smaller font for additional info */
+  line-height: 1.4; /* Improve readability */
+  color: #666; /* Set a lighter color for additional info */
+}
+.maps {
+  margin-left: 10px;
+}
+
+.box {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  padding: 2px;
+  border: 1px solid #ccc; /* Default border */
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+  background-color: #fff; /* Background color for the box */
+  margin-bottom: 20px;
+}
+
+.box:hover {
+  border: 2px solid black; /* Highlight border on hover */
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
